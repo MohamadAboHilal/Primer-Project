@@ -2,26 +2,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cute+Font&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="favorites.css">
+    <link rel="stylesheet" href="extras.css">
     <title>Document</title>
   </head>
   <body>
     <section class="bonusSection">
       <h1>Get your favorites for free</h1>
       <ul class="bonusPoints">
-        <li><a href="#">25</a><span class="aster">★</span></li>
+        <li class="active"><a href="#">25</a><span class="aster">★</span></li>
         <li><a href="#">100</a><span class="aster">★</span></li>
         <li><a href="#">200</a><span class="aster">★</span></li>
         <li><a href="#">300</a><span class="aster">★</span></li>
         <li><a href="#">400</a><span class="aster">★</span></li>
       </ul>
       <figure class="reward">
-        <img src="https://www.starbucks.com/weblx/images/rewards/reward-tiers/25.png" alt="">
+        <img src="https://www.starbucks.com/weblx/images/rewards/reward-tiers/25.png" alt="bonusCoffee">
         <figcaption>
-          <h3>Customize your drink</h3>
+          <h3 class="rewardTitle">Customize your drink</h3>
           <p>Make your drink just right with an extra espresso shot or a dash of your favorite syrup.</p>
         </figcaption>
       </figure>
+      </section>
+      <section class="extras">
+        <h2>Endless Extras</h2>
+        <p>Joining Starbucks® Rewards means unlocking access to benefits like quick and easy ordering, tasty Rewards and—yes, free coffee.
+        </p>
+        <ul>
+          <li>
+            <img src="https://www.starbucks.com/weblx/images/rewards/benefits/1-fun-freebies.jpg" alt="coffe and sandwich" width="112">
+            <h3>Fun freebies</h3>
+            <p>Not only can you earn free coffee, look forward to a birthday treat plus coffee and tea refills.</p>
+            <a href="#">Learn more</a>
+          </li>
+          <li>
+            <img src="https://www.starbucks.com/weblx/images/rewards/benefits/2-order-and-pay-ahead.jpg" alt="phone in hand" width="112">
+            <h3>Order & pay ahead</h3>
+            <p>Master the art of ordering ahead with saved favorites and payment methods.</p>
+            <a href="#">Learn more</a>
+          </li>
+          <li>
+            <img src="https://www.starbucks.com/weblx/images/rewards/benefits/3-get-to-free-faster.jpg" alt="icecream" width="112">
+            <h3>Order & pay ahead</h3>
+            <p>Earn Stars even quicker with Bonus Star challenges, Double Star Days and exciting games.</p>
+            <a href="#">Learn more</a>
+          </li>
+        </ul>
       </section>
   </body>
 </html>
