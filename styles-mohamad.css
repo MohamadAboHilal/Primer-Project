@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  font-family: "Sodo San", sans-serif;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: white;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.logo-nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 80px;
+  margin-right: 1rem;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: -45px;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background-color: #008248; /* Starbucks green color */
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.store-locator {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  font-family: "Sodo San", sans-serif;
+  font-weight: 600;
+}
+
+.location-icon {
+  width: 16px; /* Adjust the icon size as needed */
+  height: 16px;
+  margin-right: 5px;
+}
+
+.sign-in,
+.join-now {
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-radius: 20px;
+}
+
+.sign-in {
+  background-color: transparent;
+  color: black;
+  margin-right: 0.5rem;
+  border: 1px solid black;
+}
+
+.join-now {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+/* Full-width green banner */
+.rewards-banner {
+  background-color: #1e3932;
+  padding: 1rem 0;
+  width: 100%;
+  box-shadow: rgb(191, 191, 191) 0px 5px 15px;
+}
+
+.rewards-banner h2 {
+  margin-inline: auto;
+  font-size: small;
+  font-weight: 800;
+  color: white;
+  width: calc(1200px - 80px - 96px);
+  max-width: 1800px;
+}
+
+/* Responsive alignment */
+@media (min-width: 1200px) {
+  /* Center align header within the container for large screens */
+  .header {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.rewards-section {
+  background-color: #f2f0eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5rem;
+  h2 {
+    text-align: center;
+    padding: 3rem 0.5rem 0.5rem 0.5rem;
+  }
+
+  p {
+    /* padding-top: 1rem; */
+    margin-top: 2rem;
+    text-align: center;
+    max-width: auto;
+    font-size: larger;
+    font-weight: 300;
+  }
+}
+
+.reward-options {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 6rem;
+  max-width: 100%;
+  width: 55%;
+  margin-inline: auto;
+
+  p {
+    text-align: left;
+    padding-bottom: 15px;
+  }
+}
+
+.reward-option {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 10rem;
+  width: 100%;
+}
+
+.reward-option:not(:last-of-type) {
+  border-bottom: #b9b7b3 1px solid;
+}
+
+.reward-option:nth-of-type(3) {
+  /* justify-content: start; */
+
+  img {
+    margin-top: 1.5rem;
+    margin-right: 0.75rem;
+    height: 100px;
+    align-self: flex-start;
+  }
+}
+
+.icon-credit {
+  align-self: start;
+}
+
+.reward-option-name {
+  /* line-height: 10px; */
+  align-self: flex-start;
+  margin-top: 40px;
+  /* text-wrap: nowrap; */
+  width: 10rem;
+}
+
+.reward-option-spec {
+  width: 300px;
+  overflow-wrap: normal;
+}
+
+.option-detail {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  img {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    height: 180px;
+    align-self: flex-start;
+  }
+}
+
+.subheading {
+  width: 900px;
+  text-align: center;
+}
+
+.placeholder {
+  width: 25.5rem;
+}
