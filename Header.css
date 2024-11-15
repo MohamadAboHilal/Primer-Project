@@ -1,0 +1,87 @@
+.container {
+  background-color: #d4e9e2;
+  display: grid;
+  align-items: center;
+}
+.starimg {
+  grid-row: 1;
+  grid-column: 1;
+}
+.herotext {
+  grid-row: 1;
+  grid-column: 1;
+  padding-left: 2.5rem;
+}
+.button {
+  display: inline-block;
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #00754a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+.button:hover {
+  background-color: #00593f;
+}
+.app-link {
+  color: #00754a;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+.starimg {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  border-radius: 10px;
+}
+.GettingStarted {
+  padding: 70px 30px;
+  background-color: #fff;
+  text-align: center;
+}
+.stepslist {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: row;
+  row-gap: 5rem;
+  background-color: white;
+}
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.step h1 {
+  display: block;
+  font-size: 2rem;
+  color: #00754a;
+  margin-bottom: 0px;
+  text-align: center;
+  width: fit-content;
+}
+.sircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #1d5a43;
+  border-radius: 50%;
+}
+.step h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+.step p {
+  font-size: 0.9rem;
+  width: 300px;
+}
+.step a {
+  color: #00754a;
+  text-decoration: none;
+}
