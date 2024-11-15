@@ -6,11 +6,12 @@
 }
 
 .bonusSection {
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
-  background-color: #F1F7F5;
+  background-color: #f1f7f5;
 
   h1 {
     padding: 2rem;
@@ -27,7 +28,6 @@
       padding: 15px;
       border-bottom: 3px solid transparent;
 
-
       a {
         text-decoration: none;
         color: black;
@@ -41,7 +41,8 @@
       }
     }
 
-    li:hover, .active {
+    li:hover,
+    .active {
       border-color: #00754a;
     }
   }
@@ -51,7 +52,7 @@
     grid-template-columns: 350px 350px;
     width: 100%;
     justify-content: center;
-    background-color: #D4E8E2;
+    background-color: #d4e8e2;
     padding: 20px;
     gap: 90px;
 
@@ -65,8 +66,8 @@
     figcaption {
       align-self: center;
 
-    .rewardTitle {
-        padding-bottom: 1.6rem
+      .rewardTitle {
+        padding-bottom: 1.6rem;
       }
     }
   }

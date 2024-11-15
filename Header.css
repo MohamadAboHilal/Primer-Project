@@ -5,12 +5,16 @@
 }
 .starimg {
   grid-row: 1;
-  grid-column: 1;
+  grid-column: 4;
 }
 .herotext {
   grid-row: 1;
   grid-column: 1;
-  padding-left: 2.5rem;
+  padding-left: 18rem;
+
+  p {
+    line-height: 50px;
+  }
 }
 .button {
   display: inline-block;
